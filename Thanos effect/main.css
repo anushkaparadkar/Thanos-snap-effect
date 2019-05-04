@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ddd;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ddd;
+}
+#start-btn {
+  font-size: 36px;
+  padding: 20px 40px 20px 80px ;
+  margin-top: 30px;
+  border-radius: 10px;
+  background:url("thanos-logo.png") white 15px no-repeat;
+  background-size: 50px;
+}
+.dust {
+  position: absolute;
+}
